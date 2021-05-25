@@ -18,6 +18,7 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -52,7 +53,14 @@
 
       #bannerH {
         font-family: "Comic Sans MS", cursive, sans-serif;
-        font-size: 55px !important;
+        font-size: 46px !important;
+        font-weight: 700 !important;
+        text-shadow: 12px 8px 2px rgba(150, 150, 150, 1);
+      }
+
+      #bannerB {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 20px !important;
         font-weight: 700 !important;
         text-shadow: 12px 8px 2px rgba(150, 150, 150, 1);
       }
@@ -140,6 +148,7 @@
   <body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
     <div class="jumbotron text-center text-nowrap">
       <div id="bannerH">Susan Ng Homepage</div>
+      <span id="bannerB">(COMP5322 Mini-project)</span>
     </div>
     <div class="container">
       <div class="alert alert-info alert-dismissible fade show">
@@ -229,10 +238,9 @@
                     at The Hong Kong Polytechnic University.
                   </p>
                   <p>
-                    Currently, I'm studying the Master in Information Technology
-                    as a part-time student in the Department of Computing at the
-                    same university. This is my 3<sup>rd</sup> year of study and
-                    I have planned to graduate in next year.
+                    I'm studying the Master in Information Technology as a
+                    part-time student in the Department of Computing at the same
+                    university and will be graduated at 2021.
                   </p>
                 </div>
               </div>
@@ -1045,6 +1053,123 @@
                                   alt="Project man hour recorder stop image"
                                   style="width: 48%; border: 1px solid black"
                                 />
+                              </div>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                              <button
+                                type="button"
+                                class="btn btn-danger"
+                                data-dismiss="modal"
+                              >
+                                Close
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <i class="fa-li fas fa-laptop-code"></i>
+                      Online Shopping Web Application&nbsp;
+                      <button
+                        type="button"
+                        class="badge btn-primary"
+                        data-toggle="modal"
+                        data-target="#projOSWAMdl"
+                      >
+                        <i class="fa fa-info-circle" style="color: white"></i
+                        >&nbsp;Details
+                      </button>
+
+                      <!-- The Modal -->
+                      <div class="modal" id="projOSWAMdl">
+                        <div
+                          class="
+                            modal-dialog
+                            modal-lg
+                            modal-dialog-centered
+                            modal-dialog-scrollable
+                          "
+                        >
+                          <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                              <h3 class="modal-title">
+                                Online Shopping Web Application
+                              </h3>
+                              <button
+                                type="button"
+                                class="close"
+                                data-dismiss="modal"
+                              >
+                                ×
+                              </button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body text-justify">
+                              <p>
+                                In this project, I have used MERN stack to
+                                develop a simple online shopping web
+                                application (<a href="http://3.89.97.208:3000/" target="_blank">BePretty.com</a>).
+                              </p>
+                              <p>
+                                <ul  class="list-group">
+                                  The application provides below functions:
+                                  <il>
+                                    <i class="fa fa-shopping-bag" style="font-size: 12px; color: purple"></i>
+                                    &nbsp;List products and display products details.</il>
+                                  <il>
+                                    <i class="fa fa-shopping-bag" style="font-size: 12px; color: purple"></i>
+                                    &nbsp;Add, update and remove products in website.</il>
+                                  <il>
+                                    <i class="fa fa-shopping-bag" style="font-size: 12px; color: purple"></i>
+                                    &nbsp;Search, sort and filter products.</il>
+                                  <il>
+                                    <i class="fa fa-shopping-bag" style="font-size: 12px; color: purple"></i>
+                                    &nbsp;Shopping cart.</il>
+                                  <il>
+                                    <i class="fa fa-shopping-bag" style="font-size: 12px; color: purple"></i>
+                                    &nbsp;Account registration and login.</il>
+                                  <il>
+                                    <i class="fa fa-shopping-bag" style="font-size: 12px; color: purple"></i>
+                                    &nbsp;Write review for products.</il>
+                                </ul>
+                              </p>
+                              <div class="col-sm-12 text-center">
+                                <img
+                                  src="images/project_online_shopping_01.png"
+                                  alt="Mobile price classification model image"
+                                  style="width: 95%; border: 2px solid black"
+                                /><br><br>
+                                <img
+                                  src="images/project_online_shopping_02.png"
+                                  alt="Mobile price classification model image"
+                                  style="width: 95%; border: 2px solid black"
+                                /><br><br>
+                                <img
+                                  src="images/project_online_shopping_03.png"
+                                  alt="Mobile price classification model image"
+                                  style="width: 95%; border: 2px solid black"
+                                /><br><br>
+                                <img
+                                  src="images/project_online_shopping_04.png"
+                                  alt="Mobile price classification model image"
+                                  style="width: 95%; border: 2px solid black"
+                                /><br><br>
+                                <img
+                                  src="images/project_online_shopping_05.png"
+                                  alt="Mobile price classification model image"
+                                  style="width: 95%; border: 2px solid black"
+                                /><br><br>
+                                <img
+                                  src="images/project_online_shopping_06.png"
+                                  alt="Mobile price classification model image"
+                                  style="width: 95%; border: 2px solid black"
+                                /><br><br>
                               </div>
                             </div>
 
